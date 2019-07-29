@@ -1,0 +1,55 @@
+Task Status : 
+
+Submitted 
+Inprogress
+Review 
+Review in progress 
+Close
+
+
+History 
+
+Task creation datte 
+Task status change date 
+task timestmp 
+Timesatmp history 
+
+
+Task : 
+
+Complexity 
+High 
+Low Medium 
+
+Task Priority 
+
+Low 
+Midum 
+High 
+Urgent 
+
+Task Impotred History ( Task created by)
+
+Task id SS3456 
+Project id MZ1234
+
+Tasked type: 
+
+Develpment 
+Ongoing 
+Implemetation 
+Leave
+
+
+Poject : 
+
+Asinee 
+
+Assinged by 
+
+No. of Hours : 3.00 
+Acctual hours : 4:30 
+
+
+
+

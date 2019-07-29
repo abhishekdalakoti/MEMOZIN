@@ -1,0 +1,188 @@
+	/* Updated version - 24th Nov 2014 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+  vertical-align: baseline;
+}
+
+
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Variables */
+body {
+  background: #f77462;
+  font-family: Lato, sans-serif;
+}
+
+
+.container {
+  margin: 100px auto;
+}
+
+.accordion {
+  background: #A1CAF1;
+  width: 100%;
+  min-width: 850px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  height: 80px;
+  font-size: 20px;
+}
+
+.tabs {
+  display: inline-block;
+  background-color: #A1CAF1;
+  border-right: #5ab2ca 1px solid;
+  border-color:#FFFFFF;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  font-size: 8px;
+  -moz-transition: all 0.4s ease-in-out 0.1s;
+  -o-transition: all 0.4s ease-in-out 0.1s;
+  -webkit-transition: all 0.4s ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+}
+.tabs:hover {
+  width: 450px;
+  background-color: #FFFFFF;
+}
+.tabs:hover .social-links a:before {
+  margin-left: -100px;
+}
+.tabs:hover .social-links a:after {
+  margin-left: -5px;
+}
+.tabs:active {
+  width: 450px;
+}
+.tabs:active .social-links a:before {
+  margin-left: -100px;
+}
+.tabs:active .social-links a:after {
+  margin-left: -5px;
+}
+.tabs .paragraph {
+  position: relative;
+  width: 360px;
+  margin-left: 80px;
+  padding: 20px 0 0 10px;
+  height: 80px;
+  background: #fff;
+}
+.tabs .paragraph h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+.tabs .paragraph p {
+  font-size: 0.5em;
+  line-height: 1em;
+  padding-right: 30px;
+}
+
+.social-links {
+  display: block;
+}
+.social-links a {
+  display: block;
+  text-indent: -9999px;
+  font-size: 0;
+  line-height: 0;
+}
+.social-links a:before, .social-links a:after {
+  -moz-transition: all 0.4s ease-in-out 0.1s;
+  -o-transition: all 0.4s ease-in-out 0.1s;
+  -webkit-transition: all 0.4s ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  transition: all 0.4s ease-in-out 0.1s;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  text-indent: 0;
+  padding-top: 30px;
+  padding-left: 25px;
+  display: block;
+  font: normal 30px Genericons;
+  color: #fff;
+}
+.social-links a:after {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 30px;
+  margin-left: 85px;
+}
+
+.newemp-icon a:before, .newemp-icon a:after {
+  content: '\f054';
+  font-family: FontAwesome;
+}
+.newemp-icon a:after {
+  content: '\f2c0';
+  font-family: FontAwesome;
+  background-size: 100%;
+  
+
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00a9cd), color-stop(100%, #0083b4));
+  background-image: -moz-linear-gradient(#00a9cd, #0083b4);
+  background-image: -webkit-linear-gradient(#00a9cd, #0083b4);
+  background-image: linear-gradient(#00a9cd, #0083b4);
+}
+
+.qualification-icon a:before, .qualification-icon a:after {
+  content: '\f054';
+  font-family: FontAwesome;
+}
+.qualification-icon a:after {
+  content: '\f02d';
+  font-family: FontAwesome;
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7fc121), color-stop(100%, #298733));
+  background-image: -moz-linear-gradient(#7fc121, #298733);
+  background-image: -webkit-linear-gradient(#7fc121, #298733);
+  background-image: linear-gradient(#7fc121, #298733);
+
+}
+
+.experience-icon a:before, .experience-icon a:after {
+  content: '\f054';
+  font-family: FontAwesome;
+}
+.experience-icon a:after {
+  content: '\f0f7';
+  font-family: FontAwesome;
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e03a70), color-stop(100%, #f189b8));
+  background-image: -moz-linear-gradient(#e03a70, #f189b8);
+  background-image: -webkit-linear-gradient(#e03a70, #f189b8);
+  background-image: linear-gradient(#e03a70, #f189b8);
+}
